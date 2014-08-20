@@ -171,6 +171,34 @@ p {
     margin-bottom: 25px;
 }
 
+
+.bigger {
+    font-size: 140%; 
+    color: #C41E3A;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+             0px 8px 13px rgba(0,0,0,0.2),
+             0px 18px 23px rgba(0,0,0,0.2);  
+
+}
+
+.big {
+    font-size: 120%; 
+    color: #C41E3A;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+             0px 7px 10px rgba(0,0,0,0.2),
+             0px 10px 15px rgba(0,0,0,0.2);  
+}
+
+.smaller {
+    font-size: 60%;  
+    color: #000000; 
+    text-shadow: 0px 3px 2px rgba(0,0,0,0.5);
+             }
+
+.text-shadow {
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+
 .centered {
     text-align: center;
 }
@@ -271,7 +299,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/steps.jpg) no-repeat center top;
+	background: url(../img/desk.jpg) no-repeat center top;
 	margin-top: -50px;
 	padding-top:120px;
 	text-align:center;
