@@ -189,6 +189,13 @@ p {
              0px 10px 15px rgba(0,0,0,0.2);  
 }
 
+.bolder {
+    font-weight: 400;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+             0px 7px 10px rgba(0,0,0,0.2),
+             0px 10px 15px rgba(0,0,0,0.2);  
+}
+
 .smaller {
     font-size: 60%;  
     color: #000000; 
@@ -440,20 +447,20 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider1 {
-	background-image: url('../img/bg/divider1.jpg')
+	background-image: url('../img/table.jpg')
 }
 
 .divider2 {
-	background-image: url('../img/bg/divider2.jpg')
+	background-image: url('../img/dark.jpg')
 }
 
 .divider3 {
-	background-image: url('../img/bg/divider3.jpg');
+	background-image: url('../img/steps.jpg');
 	margin-top: 0px;
 }
 
 .divider4 {
-	background-image: url('../img/bg/divider4.jpg')
+	background-image: url('../img/people.jpg')
 }
 
 .divider6 {
