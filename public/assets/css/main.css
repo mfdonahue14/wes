@@ -171,22 +171,46 @@ p {
     margin-bottom: 25px;
 }
 
+.biggest {
+    -webkit-text-stroke: 2px white;
+    font-size: 200%; 
+    font-weight: 800;
+    color: black;
+     text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+   }
 
 .bigger {
-    font-size: 140%; 
+    -webkit-text-stroke: 2px white;
+    font-size: 160%; 
+    font-weight: 800;
     color: #C41E3A;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
-             0px 8px 13px rgba(0,0,0,0.2),
-             0px 18px 23px rgba(0,0,0,0.2);  
+     text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000; 
+
+
 
 }
 
 .big {
+    -webkit-text-stroke: 1px black;
     font-size: 120%; 
+    font-weight: 700;
     color: #C41E3A;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
-             0px 7px 10px rgba(0,0,0,0.2),
-             0px 10px 15px rgba(0,0,0,0.2);  
+     text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
 
 .bolder {
@@ -197,10 +221,15 @@ p {
 }
 
 .smaller {
-    font-size: 60%;  
-    color: #000000; 
-    text-shadow: 0px 3px 2px rgba(0,0,0,0.5);
-             }
+    -webkit-text-stroke: 1.3px black;
+    font-size: 100%;  
+    color: white; 
+     text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000; }
 
 .text-shadow {
     text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
@@ -213,6 +242,20 @@ p {
 .paragraph-lead {
     font-size: 20px;
     color: #3498db;
+}
+
+.sup {
+    -webkit-text-stroke: .7px white;
+    font-size: 50%; 
+    font-weight: 700;
+    color: #C41E3A;
+     text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+
 }
 
 strong {
@@ -306,7 +349,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/desk.jpg) no-repeat center top;
+	background: url(../img/wood.jpg) no-repeat center top;
 	margin-top: -50px;
 	padding-top:120px;
 	text-align:center;
@@ -404,14 +447,14 @@ a:after {
     z-index: 999;
     width: 100%;
     display: table;
-    max-height: 450px;
+    max-height: 650px;
     border-bottom: 2px solid #E6EAED;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    padding-top: 30px;
-    padding-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 100px;
     margin-top: 45px;
 
 
@@ -451,7 +494,7 @@ a:after {
 }
 
 .divider2 {
-	background-image: url('../img/dark.jpg')
+	background-image: url('../img/coffee.jpg')
 }
 
 .divider3 {
