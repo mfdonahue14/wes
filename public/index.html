@@ -24,6 +24,21 @@
     
     <script src="assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+
+	<script>
+/**
+* Function that tracks a click on an outbound link in Google Analytics.
+* This function takes a valid URL string as an argument, and uses that URL string
+* as the event label.
+*/
+var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+     function () {
+     document.location = url;
+     }
+   });
+}
+</script>
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -175,7 +190,7 @@
 					<div class="col-lg-4">
 						<h2>We Are Accepting Applications!</h2>
 						<p align="left">The Wesleyan Entrepreneurship Society welcomes any aspiring student entrepreneur, regardless of their background. The society is full of active members that strive to help the lives of others through innovation and collaboration. We care about how timely,responsible and reliable our members are, and, of course, their enthusiasm. </p>
-						<p><a class="btn btn-success" href="https://docs.google.com/a/wesleyan.edu/forms/d/1dFhm2q-b4oGtbLvYJqVKZamDlS_BptntZ2mP7O5In1s/viewform?usp=send_form" target="_blank">Apply Today</a></p>
+						<p><a class="btn btn-success" href="http://goo.gl/hYpc9g" onclick=”trackOutboundLink(‘http://goo.gl/hYpc9g’); return false; target="_blank">Apply Today</a></p>
 					</div>					
 				</div><!-- row -->
 			</div>
